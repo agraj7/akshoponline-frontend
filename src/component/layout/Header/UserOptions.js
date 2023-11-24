@@ -99,7 +99,6 @@ const UserOptions = ({user}) => {
             key={item.name}
             icon={item.icon}
             onClick={item.func}
-            tooltipOpen={window.innerWidth <= 600 ? true : false}
           />
         ))}
       </SpeedDial>

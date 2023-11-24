@@ -38,29 +38,45 @@
 }
 @media screen and (max-width:600px){
   .navBar{
-    font-size:100;
     font-weight: 500;
     display:flex;
     flex-direction: column;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   .navBar .nav1{
+    font-size:9px;
     display: flex;
     width:240px;
-    justify-content:space-between;
+    justify-content: space-between;
   }
   .navBar .nav2{
     display: flex;
     width:240px;
     align-items: center;
     justify-content:flex-start;
-    margin-left:100px;
   }
-  .navBar .nav2 .search, .cart, .login{
-    margin-left:10px;
-    margin-right: 10px;
+  .navBar .nav1 .home, .contact{
+    font-size:9px;
   }
-#logoImage img{
-  height:40px;
-}
+  .navBar .nav1 h2{
+    font-size:10px;
+  }
+  .navBar .nav2 .products, .search, .cart, .login{
+    font-size:9px;
+  }
+  .speedDial {
+    position: fixed;
+    right: 6vmax;
+    top: 5vmax;
+    height:42px;
+    width:42px;
+  }
+  
+  .speedDialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #logoImage img{
+    height:40px;
+  }
 }
