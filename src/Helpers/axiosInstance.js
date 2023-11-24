@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://mernbackend-r4tf.onrender.com/";
+const BASE_URL = "https://shoponlinebackend.onrender.com/";
 const axiosInstance = axios.create();
 
 axiosInstance.defaults.baseURL = BASE_URL;
