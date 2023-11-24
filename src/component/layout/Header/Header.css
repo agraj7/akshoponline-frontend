@@ -53,6 +53,7 @@
     width:240px;
     align-items: center;
     justify-content:flex-start;
+    margin-bottom: 5px;
   }
   .navBar .nav1 .home, .contact{
     font-size:9px;
@@ -65,7 +66,7 @@
   }
   .speedDial {
     position: fixed;
-    right: 2.5vmax;
+    right: 3.1vmax;
     top: 5vmax;
     height:25px;
     width:25px;
