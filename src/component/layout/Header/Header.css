@@ -1,0 +1,42 @@
+.navBar{
+  font-size: medium;
+  font-weight: 500;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navBar a{
+  border-radius: 12px;
+  padding:0.5vw 1vw;
+  text-decoration: none;
+  color:black;
+}
+.navBar a:hover {
+  background-color: whitesmoke;
+}
+.speedDial {
+  position: fixed;
+  right: 4vmax;
+  top: 5vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+@media screen and (max-width:600px){
+  .navBar{
+    font-size:larger ;
+    font-weight: 500;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+#logoImage img{
+  height:30px;
+
+}
+}
