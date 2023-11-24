@@ -126,7 +126,6 @@ const ProductReviews = () => {
         id: item._id,
         rating: item.rating,
         comment: item.comment,
-        user: item.name,
       });
     });
 
