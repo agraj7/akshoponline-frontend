@@ -65,15 +65,15 @@
   }
   .speedDial {
     position: fixed;
-    right: 1vmax;
+    right: 2.5vmax;
     top: 5vmax;
-    height:32px;
-    width:32px;
+    height:25px;
+    width:25px;
   }
   
   .speedDialIcon {
-    width: 31px;
-    height: 31px;
+    width: 24px;
+    height: 24px;
     border-radius: 100%;
   }
   #logoImage img{
