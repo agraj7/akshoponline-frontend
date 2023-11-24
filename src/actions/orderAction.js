@@ -88,7 +88,7 @@ import {
         },
       };
 
-      const { data } = await axios.put(
+      const { data } = await axiosInstance.put(
         `api/v1/admin/order/${id}`,
         order,
         config
