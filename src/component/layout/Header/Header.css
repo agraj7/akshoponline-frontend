@@ -6,6 +6,16 @@
   align-items: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.navBar .nav1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar .nav2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .navBar a{
   border-radius: 12px;
   padding:0.5vw 1vw;
@@ -28,15 +38,29 @@
 }
 @media screen and (max-width:600px){
   .navBar{
-    font-size:larger ;
+    font-size:100;
     font-weight: 500;
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .navBar .nav1{
+    display: flex;
+    width:240px;
+    justify-content:space-between;
+  }
+  .navBar .nav2{
+    display: flex;
+    width:240px;
     align-items: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content:flex-start;
+    margin-left:100px;
+  }
+  .navBar .nav2 .search, .cart, .login{
+    margin-left:10px;
+    margin-right: 10px;
   }
 #logoImage img{
-  height:30px;
-
+  height:40px;
 }
 }
