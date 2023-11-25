@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="rightFooter">
     <p>Connect with developer</p>
     <a href="http://www.linkedin.com/in/agrajkatiyar"><LinkedInIcon/></a>
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agrajkatiyar7@gmail.com&su=SUBJECT&body=BODY"><Email/>agrajkatiyar7@gmail.com</a><br/>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agrajkatiyar7@gmail.com&su=SUBJECT&body=BODY"><Email/></a><br/>
     </div>
     </div>
   )
