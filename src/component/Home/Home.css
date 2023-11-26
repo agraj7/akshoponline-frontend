@@ -106,14 +106,14 @@
 @media screen and (max-width:600px){
     .banner>div{
         color:rgb(255, 255, 255);
-        background-color: rgb(171, 246, 59);
+        background-color: rgb(0, 0, 0);
         font-size:7.8vw;
     }  
     .banner>h3{
         font-size: 1.9vmax;
         font-weight: 300;
         color:rgb(32, 31, 31);
-        background-color: pink;
+        background-color: rgb(192, 230, 255);
         
     }
 
